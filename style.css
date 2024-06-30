@@ -32,7 +32,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 550;
     color: #fd16df;
 }
@@ -78,6 +78,13 @@ h4{
     margin-top: -100px;
     margin-left: 175px;
 }
+
+.hero_half img:hover{
+    width: 110%;
+    height: 110%;
+    transition: 2s;
+}
+
 .half{
     margin-top: -20px;
 }
@@ -102,4 +109,7 @@ p{
     background: #fd16df;
     text-decoration: none;
     border-radius: 5px;
+}
+.btn:hover{
+background: #1965ff;
 }
